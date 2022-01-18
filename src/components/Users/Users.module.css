@@ -1,0 +1,116 @@
+.usersPage {
+    display: flex;
+    flex-direction: column;
+}
+
+.counter {
+    text-align: center;
+
+    padding: 10px;
+    font-size: 12px;
+}
+
+.counter button {
+    padding: 1px 0;
+    margin-right: 10px;
+
+    background-color: #ffffff;
+}
+
+.act {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.boxTitle {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.title {
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.paginator {
+flex: 1 1 auto;
+    text-align:  center;}
+
+.user {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.userItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 10%;
+    min-width: 70px;
+}
+
+.userItem img {
+    width: 50px;
+    height: 50px;
+
+    margin-bottom: 4px;
+
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.follow {
+    padding: 0 5px;
+    border-radius: 4px;
+
+    font-size: 13px;
+    background-color: #2aa3fb;
+}
+
+.blockInfo {
+    display: flex;
+    justify-content: space-between;
+
+    min-height: 55px;
+    flex: 1 1 auto;
+    margin-left: 10px;
+    padding: 5px 10px 0 10px;
+
+    border: 1px solid #d5d5d5;
+    border-radius: 4px;
+
+}
+
+.postUserInfo {
+    flex: 1 1 auto;
+}
+
+.userName {
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.status {
+    font-size: 13px;
+}
+
+.fromPlace {
+    flex: 0 1 30%;
+    min-width: 30%;
+}
+
+.fromPlace h4 {
+    margin-bottom: 10px;
+
+    font-size: 14px;
+}
+
+.fromPlace h5 {
+    font-size: 14px;
+}

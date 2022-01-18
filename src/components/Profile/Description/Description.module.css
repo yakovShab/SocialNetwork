@@ -1,0 +1,40 @@
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.postUserInfo {
+    margin: 0 20px;
+    width: 100%;
+}
+
+.fullName {
+    margin-bottom: 10px;
+    font-size: 24px;
+
+    color: #27aae1;
+}
+
+.status {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.about p {
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.about {
+    width: 100%;
+
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.contacts h6 {
+    color: #6d6e71;
+    font-size: 16px;
+}

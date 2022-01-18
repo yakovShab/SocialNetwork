@@ -1,0 +1,12 @@
+.profilePage {
+    display: flex;
+    padding: 10px 0;
+}
+
+.left {
+    flex: 0 1 200px;
+}
+
+.right {
+    flex: 1 1 auto;
+}

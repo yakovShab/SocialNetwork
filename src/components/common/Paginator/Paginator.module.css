@@ -1,0 +1,31 @@
+
+.paginator {
+    display: inline-block;
+}
+
+.pageNumber {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.pageNumber:hover:not(.selectedPage) {
+    transition: background-color .3s;
+    background-color: #ddd;
+}
+
+.pageNumber.selectedPage {
+    background-color: #27aae1;
+    color: white;
+}
+
+.button {
+    margin: 0 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #27aae1;
+    cursor: pointer;
+}

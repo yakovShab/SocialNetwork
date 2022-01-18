@@ -1,0 +1,87 @@
+.dialog {
+    display: block;
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.dialog:hover {
+    border-bottom: 1px solid #27aae1;
+}
+
+.flexBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatar {
+    flex: 0 1 40px;
+    position: relative;
+}
+
+.avatar img {
+    height: 40px;
+    width: 40px;
+
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.circle {
+    position: absolute;
+    top: auto;
+    right: 1px;
+    bottom: 0;
+    left: auto;
+
+    color: #49e2f0;
+}
+
+.circle:before {
+    content: "\f111";
+    font-family: FontAwesome, sans-serif;
+    font-size: 9px;
+}
+
+.name {
+    flex: 1 1 auto;
+    max-width: 50%;
+}
+
+.dialog h6 {
+    line-height: 1.5;
+    font-size: 14px;
+    color: #3f414d;
+}
+
+.dialog.active h6 {
+    color: #27aae1;
+}
+
+.name p {
+    font-size: 12px;
+    color: #777D74;
+}
+
+.chatInfo {
+    flex: 0 1 40px;
+    text-align: center;
+}
+
+.counter {
+    height: 15px;
+    width: 15px;
+
+    margin: 0 auto;
+    border-radius: 50%;
+    line-height: 16px;
+
+    font-size: 9px;
+    background: #50b5ff;
+    color: #ffffff;
+}
+
+.time {
+    font-size: 9px;
+    color: #50b5ff;
+}

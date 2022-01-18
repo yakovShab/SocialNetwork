@@ -1,0 +1,51 @@
+.preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.clockLoader {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    border: 3px solid #27aae1;
+    border-radius: 50%;
+}
+
+.clockLoader::before, .clockLoader::after {
+    position: absolute;
+    content: "";
+    top: calc(2rem * 0.25);
+    width: 0.2rem;
+    background: #27aae1;
+    border-radius: 10px;
+    transform-origin: center calc(100% - calc(0.2rem / 2));
+    animation: spin infinite linear;
+}
+
+.clockLoader::before {
+    height: 1.6rem;
+    animation-duration: 2s;
+}
+
+.clockLoader::after {
+    top: calc(2rem * 0.25 + 0.8rem);
+    height: 0.8rem;
+    animation-duration: 15s;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+
+
